@@ -119,31 +119,11 @@ https://codev1be-social-web.vercel.app/
 
 /
  ├── app/
- │    ├── (private routes)/
- │    ├── (public)/
- │    ├── providers/
- │    ├── globals.css
- │    ├── layout.tsx
- │    ├── page.tsx
- │    ├── icon.tsx
- │    ├── not-found.tsx
- │    └── not-found.module.css
- │
  ├── components/
  ├── hooks/
  ├── lib/
  ├── types/
  ├── public/
- ├── node_modules/
- │
- ├── next.config.ts
- ├── package.json
- ├── eslint.config.mjs
- ├── .prettierrc
- └── .gitignore
-
-
-(І так — без src/. Чисто, мінімалістично, по-next'івськи 😎)
 
 🌗 Темна тема
 

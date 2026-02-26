@@ -25,19 +25,24 @@
 💾 Має систему збереження статей
 🎨 Відповідає UI Kit та макету
 
-🗂️ Структура сторінок
-📄 Сторінка	🔗 Маршрут
-🏠 Головна	/
-📝 Реєстрація	/auth/register
-🔐 Вхід	/auth/login
-📚 Історії	/stories
-📖 Окрема історія	/stories/[storyId]
-➕ Створення історії	/stories/create
-✏️ Редагування історії	/stories/[storyId]/edit
-🌍 Мандрівники	/travellers
-👤 Профіль мандрівника	/travellers/[travellerId]
-⭐ Мій профіль / Збережені	/profile
-⚙️ Редагування профілю	/profile/edit
+## 🗂️ Структура сторінок
+
+| 📄 Сторінка | 🔗 Маршрут |
+|-------------|------------|
+| 🏠 Головна | `/` |
+| 📝 Реєстрація | `/auth/register` |
+| 🔐 Вхід | `/auth/login` |
+| 📚 Історії | `/stories` |
+| 📖 Окрема історія | `/stories/[storyId]` |
+| ➕ Створення історії | `/stories/create` |
+| ✏️ Редагування історії | `/stories/[storyId]/edit` |
+| 🌍 Мандрівники | `/travellers` |
+| 👤 Профіль мандрівника | `/travellers/[travellerId]` |
+| ⭐ Мій профіль / Збережені | `/profile` |
+| ⚙️ Редагування профілю | `/profile/edit` |
+
+
+
 🛠️ Технології
 ⚙️ Ядро
 
@@ -115,17 +120,13 @@ https://codev1be-social-web.vercel.app/
 
 📁 Структура проєкту
 
-(відповідно до реальної структури)
-
 /
- ├── app/
- ├── components/
- ├── hooks/
- ├── lib/
- ├── types/
- ├── public/
-
-🌗 Темна тема
+├── app/
+├── components/
+├── hooks/
+├── lib/
+├── types/
+└── public/
 
 Додаток підтримує:
 
